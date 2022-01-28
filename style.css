@@ -15,10 +15,10 @@ body {
     background:#4B0082;
     color:white;
     height:100px;
-}
-
-#cabecalho hgroup {
-    margin:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:2px dotted #FF8C00;
 }
 
 #cabecalho h1 {
@@ -26,18 +26,28 @@ body {
     text-shadow: 0px 0px 10px turquoise;
 }
 
-#cabecalho h2 {
-    color:yellow;
-    text-shadow: 0px 0px 10px yellow;
+#barra-navegacao {
+    background:#800000;
+    display:flex;
+    color:white;
+    align-items:center;
+}
+
+#jogos {
+    display:flex;
 }
 
 #rodape {
     background:#4B0082;
     color:white;
     height:100px;
+    display:flex;
+    justify-content:center;
+    border:2px dotted #FF8C00;
 }
 
 /*CLASSES*/
+
 
 
 
