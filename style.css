@@ -1,14 +1,17 @@
+
 body {
     padding:0px;
     margin:0px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', 'sans-serif';
     overflow:hidden;
+    background:#333;
 }
 
 /*IDS*/
 #interface {
     margin:50px;
-    border:1px solid black;
+    border:10px inset #ddd;
+    box-sizing: border-box;
 }
 
 #cabecalho {
@@ -18,23 +21,49 @@ body {
     display:flex;
     justify-content:center;
     align-items:center;
-    border:2px dotted #FF8C00;
 }
 
 #cabecalho h1 {
     color:turquoise;
     text-shadow: 0px 0px 10px turquoise;
+    font-size:40pt;
 }
 
 #barra-navegacao {
     background:#800000;
-    display:flex;
+    display:block;
     color:white;
+}
+
+#barra-navegacao ul {
+    display:flex;
+    list-style-type:none;
+    justify-content:right;
     align-items:center;
+    margin:0px;
+}
+
+#barra-navegacao li {
+    padding:10px;
+    border-left:1px solid #500000;
+    box-sizing:border-box;
+}
+
+#barra-navegacao li:hover {
+    background:#a02020;
+}
+
+#barra-navegacao a {
+    color:white;
+    font-size:10pt;
+    text-transform:uppercase;
+    text-decoration:none;
 }
 
 #jogos {
     display:flex;
+    align-items:center;
+    overflow:auto;
 }
 
 #rodape {
@@ -43,10 +72,43 @@ body {
     height:100px;
     display:flex;
     justify-content:center;
-    border:2px dotted #FF8C00;
 }
 
 /*CLASSES*/
+.container {
+    display:block;
+    border:1px solid #333;
+    margin:10px;
+    width:300px;
+}
+
+.img {
+    height:300px;
+    width:300px;
+    border:1px solid #333;
+    background-color:aqua;
+    box-sizing:border-box;
+}
+
+.btn {
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.btn button {
+    background:green;
+    color:white;
+    padding:10px;
+    font-size:10pt;
+    text-transform:uppercase;
+    border:1px solid #050;
+    width:100%;
+}
+
+.btn button:hover {
+    background:#2a2;
+}
 
 
 
