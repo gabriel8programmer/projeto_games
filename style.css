@@ -35,11 +35,8 @@ body {
 }
 
 #barra-navegacao ul {
-    display:flex;
-    list-style-type:none;
-    justify-content:right;
-    align-items:center;
     margin:0px;
+    list-style-type: none;
 }
 
 #barra-navegacao li {
@@ -58,6 +55,7 @@ body {
     font-size:10pt;
     text-transform:uppercase;
     text-decoration:none;
+    width:150px;
 }
 
 #jogos {
@@ -111,8 +109,3 @@ body {
 .btn button:hover {
     background:#2a2;
 }
-
-
-
-
-
